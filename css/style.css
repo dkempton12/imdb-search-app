@@ -3,6 +3,10 @@ body {
   color: white;
 }
 
+.jumbotron {
+  max-width: 700px;
+  margin: 0 auto;
+}
 /* making image 100% of its container */
 #movies img, #movie img {
   width :100%;
