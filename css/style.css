@@ -1,14 +1,29 @@
+body {
+  background: dodgerblue;
+  color: white;
+}
+
 /* making image 100% of its container */
 #movies img, #movie img {
   width :100%;
 }
 
+.btn {
+  background: seagreen;
+}
+
 @media (min-width: 960px) {
 #movies .col-md-3 .well {
-  height: 390px;
+  max-height: 390px;
 }
 
 #movies .col-md-3 img {
   height: 290px;
+}
+
+#movie .well {
+  padding: 15px;
+  background: #282828;
+  margin-left: 15px;
 }
 }
